@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ECEBDE;
+}
+.dashboard{
+    display: flex;
+    height: 100vh;
+
+}
+/* side bar layout*/
+
+.sidebar{
+    width: 20%;
+    background-color:#C1BAA1;
+    padding: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar .heads{
+    font-size: 25px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+
+}
+.sidebar.heads img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.sidebar .menu {
+    list-style: none;
+}
+.sidebar .menu li{
+    margin-bottom: 10px;
+}
+.sidebar .menu li a:hover{
+    background-color:#a37e04;
+}
+.sidebar .menu li a:active{
+    background-color:#F6995C ;
+}
+.sidebar .menu li img{
+    width: 40px;
+    height: 40px;
+}
+
+.sidebar .menu li a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sidebar .menu li a span{
+    margin-left: 8px;
+
+}
+
+/* Main Content Lay out*/
+
+.main-content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+/* Topbar Lay Out*/
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #A59D84;
+    box-shadow: 0 2px 4px rgb(121, 91, 91);
+}
+
+.topbar .search input{
+    margin-left: 30px;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+
+}
+.topbar .user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.topbar .user-profile span{
+    margin-right: 10x;
+    margin-right: 50px;
+    color: rgb(0, 0, 0);
+
+}
+
+.topbar .user-profile img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+ /* content lay out*/
+
+ .content{
+    padding: 20px;
+    background-color:#D7D3BF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ img{
+    height: 150px;
+ }
